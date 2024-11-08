@@ -1,0 +1,95 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+.hidden-scroll {
+  overflow: hidden; /* Ẩn cuộn */
+}
+.header-1 {
+  background-color: rgb(219, 37, 37);
+}
+
+html {
+  scroll-behavior: smooth;
+  /* background-image: url("./img/bach.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.logo-1 {
+  width: 125px;
+}
+header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+.menu {
+  color: rgb(219, 37, 37);
+}
+.home {
+  position: fixed;
+  background-color: antiquewhite;
+  z-index: 100;
+}
+
+ul.menu a::after {
+  content: "";
+  height: 5px;
+  width: 0px;
+  border-radius: 2px;
+  background:rgb(219, 37, 37);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+ul.menu a:hover::after {
+  width: 50%;
+  transform: translateX(100%);
+}
+ul.menu a {
+  position: relative;
+  padding-bottom: 7px;
+  border-radius: 9px;
+}
+.show {
+  display: flex !important;
+}
+h1{
+    color: rgb(219, 37, 37);
+}
+.trangchu{
+    z-index: -1;
+    opacity: 0.3;
+}
+.hidden {
+  display: none;
+}
+.btns{
+color: rgb(222, 71, 71);
+}
+.icon{
+  color: rgb(222, 71, 71);
+}

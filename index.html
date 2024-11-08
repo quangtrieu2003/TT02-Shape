@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="w-full home">
+      <div class="container mx-auto">
+        <header class="logo w-full">
+          <nav class="py-4">
+            <div class="logo" id="#home">
+              <a href="#trangchu"
+                ><img class="logo-1" src="./img/Logo I&E đỏ (png).png" alt=""
+              /></a>
+            </div>
+            <ul
+              class="menu flex-col md:flex-row md:flex hidden md:text-lg text-sm"
+              id="header__ul"
+            >
+              <li>
+                <a href="#trangchu">Giới thiệu</a>
+              </li>
+              <li>
+                <a href="#sosanh">Nội dung</a>
+              </li>
+              <li>
+                <a href="#lienhe">Liên hệ</a>
+              </li>
+              
+            </ul>
+
+            <button id="toggleButton" class="icon  md:hidden">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </nav>
+        </header>
+      </div>
+    </section>
+    <section id="trangchu" class="pt-20">
+      <div class=" py-16 px-6 container mx-auto">
+        <div class="max-w-4xl mx-auto text-center">
+          <!-- Tiêu đề -->
+          <h2 class="text-4xl font-bold text-gray-800 mb-8">
+            Giới thiệu nội dung trang web
+          </h2>
+    
+          <!-- Nội dung chính -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Nội dung 1 -->
+            <div class="bg-white shadow-md rounded-lg p-6 text-left">
+              <h3 class="text-2xl font-semibold text-gray-700 mb-4 pl-5">
+                Nội Dung 1
+              </h3>
+              <ul class="list-disc list-inside  space-y-2">
+                <li>
+                  Giới thiệu CSS3 và ES6
+                </li>
+                <li>
+                  So sánh CSS3 và CSS
+                </li>
+                <li>
+                  So sánh ES6 và ES5
+                </li>
+              </ul>
+            </div>
+    
+            <!-- Nội dung 2 -->
+            <div class="bg-white shadow-md rounded-lg p-6 text-left">
+              <h3 class="text-2xl font-semibold text-gray-700 mb-4 pl-5">
+                Nội Dung 2
+              </h3>
+              <ul class="list-disc list-inside  space-y-2">
+                <li>
+                  Các cách vẽ hình tròn
+                </li>
+                <li>
+                  Các cách vẽ hình tam giác
+                </li>
+                <li>
+                  Các cách vẽ hình thoi
+                </li>
+                <li>
+                  Các cách căn giữa nội dung theo chiều ngang và chiều dọc của thẻ
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="sosanh" class="pt-10">
+      <div class="container mx-auto p-8">
+        <div class="text-center mb-8">
+          <h1 class="text-4xl font-bold text-black">Nội dung 1</h1>
+        </div>
+
+        <section class="flex flex-col md:flex-row gap-8">
+          <!-- CSS3 Section -->
+          <div class="flex-1 bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-gray-800 text-center">
+              CSS3 là gì?
+            </h2>
+            <img
+              src="./img/css3.png"
+              alt="CSS3"
+              class="w-full h-auto rounded-lg mt-4 mb-4"
+            />
+            <p class="text-gray-600">
+              CSS3 (Cascading Style Sheets Level 3) là phiên bản mới nhất của
+              CSS, cho phép các nhà phát triển tạo ra các thiết kế phong phú và
+              đáp ứng cho các trang web. CSS3 bao gồm nhiều tính năng mới như
+              animations, transitions, media queries và các thuộc tính layout
+              hiện đại như flexbox và grid.
+            </p>
+          </div>
+
+          <!-- ES6 Section -->
+          <div class="flex-1 bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-gray-800 text-center">
+              ES6 là gì?
+            </h2>
+            <img
+              src="./img/es6.png"
+              alt="ES6"
+              class="w-full h-auto rounded-lg mt-4 mb-4"
+            />
+            <p class="text-gray-600">
+              ES6 (ECMAScript 2015) là phiên bản thứ sáu của ngôn ngữ lập trình
+              JavaScript, mang đến nhiều tính năng mới giúp lập trình viên phát
+              triển ứng dụng web hiệu quả hơn. Các tính năng nổi bật bao gồm
+              arrow functions, classes, template literals, promises, và module,
+              làm cho việc viết mã JavaScript trở nên đơn giản và dễ hiểu hơn.
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="" >
+      <div class="container mx-auto p-8">
+        <div class="text-center mb-8">
+          <h1 class="text-4xl font-bold text-black">So Sánh CSS3 và CSS</h1>
+        </div>
+
+        <section class="flex flex-col md:flex-row gap-8">
+          <!-- CSS3 Section -->
+          <div class="flex-1 bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-gray-800">CSS3</h2>
+            <div class="mt-4">
+              <h3 class="text-xl font-medium text-gray-700">Ưu điểm</h3>
+              <ul class="list-disc list-inside mt-2 text-gray-600">
+                <li>
+                  Hỗ trợ hiệu ứng mượt mà với <strong>transitions</strong> và
+                  <strong>animations</strong>.
+                </li>
+                <li>Thiết kế responsive với <strong>media queries</strong>.</li>
+                <li>
+                  Các thuộc tính layout mạnh mẽ như <strong>flexbox</strong> và
+                  <strong>grid</strong>.
+                </li>
+                <li>Cải thiện typography với <strong>@font-face</strong>.</li>
+                <li>
+                  Giảm tải hình ảnh nhờ các tính năng như
+                  <strong>gradient</strong> và <strong>shadow</strong>.
+                </li>
+              </ul>
+            </div>
+            <div class="mt-4">
+              <h3 class="text-xl font-medium text-gray-700">Nhược điểm</h3>
+              <ul class="list-disc list-inside mt-2 text-gray-600">
+                <li>Tương thích giữa các trình duyệt vẫn còn vấn đề.</li>
+                <li>Khó khăn trong bảo trì khi mã CSS trở nên phức tạp.</li>
+                <li>Thiếu tính năng logic như <strong>if-else</strong>.</li>
+                <li>Cần JavaScript cho các animation phức tạp.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ES6 Section -->
+          <div class="flex-1 bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-gray-800 text-center">
+              CSS2
+            </h2>
+            <!-- <img src="./img/css2.png" alt="CSS2" class="w-full h-auto rounded-lg mt-4 mb-4" /> -->
+
+            <!-- Ưu điểm của CSS2 -->
+            <h3 class="text-xl font-medium text-gray-700">Ưu điểm</h3>
+            <ul class="list-disc list-inside mt-2 text-gray-600">
+              <li>
+                Hỗ trợ tốt cho layout cơ bản và thiết kế giao diện đơn giản.
+              </li>
+              <li>Dễ dàng áp dụng cho các trang web đơn giản.</li>
+              <li>Hoạt động ổn định trên hầu hết các trình duyệt cũ.</li>
+            </ul>
+
+            <!-- Nhược điểm của CSS2 -->
+            <h3 class="text-xl font-medium text-gray-700 mt-4">Nhược điểm</h3>
+            <ul class="list-disc list-inside mt-2 text-gray-600">
+              <li>Thiếu hỗ trợ cho các hiệu ứng và layout phức tạp.</li>
+              <li>
+                Không hỗ trợ <strong>media queries</strong>, không thích ứng tốt
+                với thiết kế responsive.
+              </li>
+              <li>
+                Khó khăn trong việc tạo các giao diện hiện đại và đẹp mắt.
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="text-center mb-8 py-5">
+          <h1 class="text-4xl font-bold text-black">So Sánh ES6 và ES5</h1>
+        </div>
+
+        <section class="flex flex-col md:flex-row gap-8">
+          <!-- ES6 Section -->
+          <div class="flex-1 bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-gray-800 text-center">
+              ES6 (ECMAScript 2015)
+            </h2>
+            <!-- <img
+              src="./img/es6_features.png"
+              alt="ES6 Features"
+              class="w-full h-auto rounded-lg mt-4 mb-4"
+            /> -->
+            <h3 class="text-xl font-medium text-gray-700">Ưu điểm</h3>
+            <ul class="list-disc list-inside mt-2 text-gray-600">
+              <li>
+                Cú pháp ngắn gọn và dễ hiểu với <strong>let</strong>,
+                <strong>const</strong>, và <strong>arrow functions</strong>.
+              </li>
+              <li>
+                Hỗ trợ <strong>promises</strong> và
+                <strong>async/await</strong> giúp quản lý bất đồng bộ hiệu quả.
+              </li>
+              <li>Hỗ trợ <strong>modules</strong>, giúp tổ chức mã tốt hơn.</li>
+              <li>
+                Các thư viện và framework hiện đại hỗ trợ ES6+ giúp phát triển
+                nhanh hơn.
+              </li>
+            </ul>
+            <h3 class="text-xl font-medium text-gray-700 mt-4">Nhược điểm</h3>
+            <ul class="list-disc list-inside mt-2 text-gray-600">
+              <li>Các tính năng mới không được hỗ trợ trên trình duyệt cũ.</li>
+              <li>
+                Cần sử dụng <strong>Babel</strong> để transpile mã nếu cần tương
+                thích với ES5.
+              </li>
+              <li>Có thể làm mã phức tạp hơn nếu không được tổ chức tốt.</li>
+              <li>
+                Có thể ảnh hưởng đến tốc độ tải trang nếu không được tối ưu hóa
+                đúng cách.
+              </li>
+            </ul>
+          </div>
+
+          <!-- ES5 Section -->
+          <div class="flex-1 bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold text-gray-800 text-center">
+              ES5 (ECMAScript 5)
+            </h2>
+            <!-- <img
+              src="./img/es5.png"
+              alt="ES5"
+              class="w-full h-auto rounded-lg mt-4 mb-4"
+            /> -->
+            <h3 class="text-xl font-medium text-gray-700">Ưu điểm</h3>
+            <ul class="list-disc list-inside mt-2 text-gray-600">
+              <li>
+                Các tính năng đã được hỗ trợ rộng rãi trên hầu hết các trình
+                duyệt.
+              </li>
+              <li>Dễ dàng hiểu và áp dụng cho các lập trình viên mới.</li>
+              <li>Quản lý bất đồng bộ qua <strong>callbacks</strong>.</li>
+            </ul>
+            <h3 class="text-xl font-medium text-gray-700 mt-4">Nhược điểm</h3>
+            <ul class="list-disc list-inside mt-2 text-gray-600">
+              <li>
+                Thiếu các tính năng hiện đại như <strong>promises</strong>,
+                <strong>arrow functions</strong>.
+              </li>
+              <li>Có thể dẫn đến mã dài và khó đọc hơn.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="circle-methods " id="vehinh">
+      <div class="container mx-auto py-10">
+        <h2 class="text-3xl font-bold text-center mb-8">5 cách vẽ hình tròn</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Cách 1: Border Radius -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 1: Sử dụng border-radius
+            </h3>
+            <p class="text-gray-600">
+              Dùng thuộc tính <code>border-radius: 50%</code> để tạo hình tròn
+              đơn giản và hiệu quả.
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer1')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer1">
+              <div class="w-full">
+                <img class="w-full" src="./img/border.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 2: SVG -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 2: Sử dụng SVG
+            </h3>
+            <p class="text-gray-600">
+              Dùng SVG để tạo hình tròn có chất lượng cao và linh hoạt khi thay
+              đổi kích thước.
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer2')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer2">
+              <div class="w-full">
+                <img class="w-full h-auto" src="./img/svr-tron.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 3: Box Shadow -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 3: Sử dụng Clip Path
+            </h3>
+            <p class="text-gray-600">
+              Tạo hình tròn với hiệu ứng bóng bằng <code>Clip Path</code> để
+              thêm chiều sâu.
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer3')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer3">
+              <div class="w-full">
+                <img class="w-full" src="./img/clitpas-tron.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 4: Conic Gradient -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 4: Sử dụng Radial Gradient
+            </h3>
+            <p class="text-gray-600">
+              Dùng <code>Radial Gradient</code> để tạo vòng tròn với hiệu ứng màu
+              gradient hình nón.
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer4')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer4">
+              <div class="w-full">
+                <img class="w-full" src="./img/RadialGradient-tron.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 5: Canvas -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 5: Sử dụng Canvas
+            </h3>
+            <p class="text-gray-600">
+              Sử dụng <code>canvas</code> trong HTML5 để vẽ hình tròn động bằng
+              JavaScript.
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer5')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer5">
+              <div class="w-full">
+                <img class="w-full" src="./img/vejs.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="circle-methods">
+      <div class="container mx-auto ">
+        <h2 class="text-3xl font-bold text-center mb-8">
+          5 cách vẽ hình tam giác
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Cách 1: Border Radius -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 1: Sử dụng Border
+            </h3>
+            <p class="text-gray-600">
+              Tạo hình tam giác bằng cách sử dụng thuộc tính border.
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer6')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer6">
+              <div class="w-full">
+                <img class="w-full" src="./img/tamgiacboer.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 2: SVG -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 2: Sử dụng Clip-path
+            </h3>
+            <p class="text-gray-600">
+              Dùng clip-path để tạo hình tam giác theo ý muốn
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer7')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer7">
+              <div class="w-full">
+                <img class="w-full h-auto" src="./img/clippass.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 3: Box Shadow -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 3: Sử dụng SVG
+            </h3>
+            <p class="text-gray-600">
+              Vẽ hình tam giác với SVG để có độ phân giải cao.
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer8')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer8">
+              <div class="w-full">
+                <img class="w-full" src="./img/tamgiacsvg.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 4: Conic Gradient -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 4: Sử dụng Transform
+            </h3>
+            <p class="text-gray-600">
+              Kết hợp transform để xoay và tạo hình tam giác.
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer9')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer9">
+              <div class="w-full">
+                <img class="w-full" src="./img/tranfom.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 5: Canvas -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 5: Vẽ Hình Tam Giác Bằng Pseudo-element (::before hoặc
+              ::after)
+            </h3>
+            <p class="text-gray-600">
+              Tạo hình tam giác từ conic-gradient độc đáo.
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer10')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer10">
+              <div class="w-full">
+                <img class="w-full" src="./img/befor.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="circle-methods">
+      <div class="container mx-auto py-10">
+        <h2 class="text-3xl font-bold text-center mb-8">5 cách vẽ hình thoi</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Cách 1: Border Radius -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 1: Sử dụng Border
+            </h3>
+            <p class="text-gray-600">
+              Sử dụng thuộc tính border để tạo ra hình thoi
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer11')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer11">
+              <div class="w-full">
+                <img class="w-full" src="./img/thoiborder.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 2: SVG -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 2: Sử dụng Clip-path
+            </h3>
+            <p class="text-gray-600">
+              Sử dụng clip-path để cắt một hình chữ nhật thành hình thoi
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer12')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer12">
+              <div class="w-full">
+                <img class="w-full h-auto" src="./img/clipasthoi.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 3: Box Shadow -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 3: Sử dụng SVG
+            </h3>
+            <p class="text-gray-600">
+              Tạo hình thoi bằng SVG cho độ phân giải cao
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer13')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer13">
+              <div class="w-full">
+                <img class="w-full" src="./img/svrthoi.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 4: Conic Gradient -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 4: Sử dụng Transform
+            </h3>
+            <p class="text-gray-600">Xoay một hình vuông để tạo hình thoi.</p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer14')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer14">
+              <div class="w-full">
+                <img class="w-full" src="./img/tranphomthoi.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 5: Canvas -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 5: Sử dụng Pseudo-element
+            </h3>
+            <p class="text-gray-600">
+              Sử dụng pseudo-element để tạo hình thoi bên trong phần tử khác.
+            </p>
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer15')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer15">
+              <div class="w-full">
+                <img
+                  class="w-full"
+                  src="./img/Ảnh chụp màn hình 2024-11-03 215840.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="circle-methods">
+      <div class="container mx-auto py-10">
+        <h2 class="text-3xl font-bold text-center mb-8">5 cách căn giữa nội dung theo chiều ngang và chiều dọc của thẻ. </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Cách 1: Border Radius -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 1:Căn giữa bằng Flexbox
+            </h3>
+            
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer16')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer16">
+              <div class="w-full">
+                <img class="w-full" src="./img/flexbox.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 2: SVG -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 2: Căn giữa bằng Grid
+            </h3>
+            
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer17')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer17">
+              <div class="w-full">
+                <img class="w-full h-auto" src="./img/grid.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 3: Box Shadow -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 3: Căn giữa với line-height và text-align
+            </h3>
+            
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer18')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer18">
+              <div class="w-full">
+                <img class="w-full" src="./img/linehine.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 4: Conic Gradient -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 4: Căn giữa bằng table-cell và vertical-align
+            </h3>
+            
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer19')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer19">
+              <div class="w-full">
+                <img class="w-full" src="./img/displaytable.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cách 5: Canvas -->
+          <div class="method bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-medium text-gray-700 mb-4">
+              Cách 5:Sử dụng position với transform
+            </h3>
+            
+            <div class="text-center mt-3">
+              <button
+                class="dropdown-btn btns"
+                onclick="toggleImage('imageContainer20')"
+              >
+                Xem thêm
+              </button>
+            </div>
+            <!-- Ảnh minh họa ẩn -->
+            <div class="image-container hidden" id="imageContainer20">
+              <div class="w-full">
+                <img
+                  class="w-full"
+                  src="./img/porisive.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-gray-800 text-white py-8" id="lienhe">
+      <div class="container mx-auto px-4">
+        <!-- Footer Top: Logo and Navigation Links -->
+        <div class="flex flex-col md:flex-row md:justify-between items-start md:items-center mb-8">
+          
+        </div>
+    
+        <!-- Footer Middle: Contact Info and Social Media -->
+        <div class="flex flex-col md:flex-row md:justify-between items-start mb-8">
+          <!-- Contact Info -->
+          <div class="mb-6 md:mb-0">
+            <h3 class="text-xl font-semibold text-white">Thông tin liên hệ</h3>
+            <p class="text-gray-400 mt-2">Ngõ 7 đường Tôn Thất Huyết mai dịch Cầu Giấy Hà Nội </p>
+            <p class="text-gray-400">Email: info@yourcompany.com</p>
+            <p class="text-gray-400">Điện thoại: (123) 456-7890</p>
+          </div>
+    
+          <!-- Social Media Links -->
+          <div class="flex gap-4">
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+    
+        <!-- Footer Bottom: Copyright -->
+        
+      </div>
+    </footer>
+    
+    
+    <script src="./index.js"></script>
+  </body>
+</html>
